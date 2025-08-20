@@ -1,0 +1,134 @@
+body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(gallery/23.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            color: #000000;
+        }
+
+         header {
+            text-align: center;
+            padding: 0;
+        }
+
+.container img {
+  margin: 5px;
+  border: 10px solid #ccc;
+  float: flex;
+  width: fixed;
+}
+.container img:hover {
+  border: 5px solid #777;
+}
+
+div.container img {
+  width: 100%;
+  height: 100%;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+main{
+     background:linear-gradient(to bottom right, #00bb38, #007c1f),
+                        url("paper.gif");
+}
+       h1 { 
+            text-align: center;
+            margin: 0;
+            font-size: 3rem;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 2rem;
+            color: #000000;
+            margin-top:0%;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            max-width: 1000px;
+            margin: 0%;
+            display: inline-block;
+            flex-direction: column;
+            gap: 5rem;
+        }
+        li {
+  display: inline-block;
+  margin:0;
+  padding:0;
+
+}
+
+
+a {
+            text-decoration: none;
+}
+.navbar{
+    background-image: url(gallery/24.jpg); font-family: calibri; padding-right: 15px; padding-left: 15px;
+}
+.navdiv{
+    display: flex; align-items: center; justify-content: space-between;
+}
+.logo a{
+    font-size: 5rem; font-weight: 600; color:black;
+}
+li{
+    list-style: none; display:inline-block;
+}
+li a{
+    color: rgb(17, 0, 255); font-size: 25px; font-weight: bold; margin-right: 25px;
+}
+  button {
+            width: 100%;
+            padding: 1rem;
+            font-size: 1rem;
+            font-weight: bold;
+            background: linear-gradient(135deg, #4facfe, #00f2fe);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+button:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+        }
+
+@media (max-width: 500px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+            button {
+                font-size: 1rem;
+                padding: 0.8rem;
+            }
+        }
+
+           div.gallery {
+  width: 11rem;
+    height: 0%;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: 2px solid rgba(248, 7, 7, 0.8);
+    display: inline-block;
+    font-size: 32em rgba(248, 7, 7, 0.8);
+    font-display: center;
+    background-color: aqua
+}
+div.gallery:hover {
+  border: 5px solid #777;
+  justify-content: center;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 100%;
+}
